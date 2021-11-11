@@ -25,8 +25,8 @@ namespace Semaforo
                 segundos = 0;
                 tmrVerde.Stop();
                 tmrVerdeParpadeando.Start();
-                pnlVerticalVerde1.BackColor = Color.Gray;
-                pnlVerticalVerde2.BackColor = Color.Gray;
+                //pnlVerticalVerde1.BackColor = Color.Gray;
+                //pnlVerticalVerde2.BackColor = Color.Gray;
             }
             else
             {
@@ -39,8 +39,8 @@ namespace Semaforo
         private void frmSemaforo_Load(object sender, EventArgs e)
         {
             tmrVerde.Start();
-            pnlVerticalVerde1.BackColor = Color.Green;
-            pnlVerticalVerde2.BackColor = Color.Green;
+            //pnlVerticalVerde1.BackColor = Color.Green;
+            //pnlVerticalVerde2.BackColor = Color.Green;
         }
 
         private void tmrVerdeParpadeando_Tick(object sender, EventArgs e)
@@ -50,20 +50,20 @@ namespace Semaforo
                 segundos = 0;
                 tmrVerdeParpadeando.Stop();
                 tmrAmarillo.Start();
-                pnlVerticalVerde1.BackColor = Color.Gray;
-                pnlVerticalVerde2.BackColor = Color.Gray;
+                //pnlVerticalVerde1.BackColor = Color.Gray;
+                //pnlVerticalVerde2.BackColor = Color.Gray;
             }
             else
             {
                 if (!(Math.Abs(segundos % 1) <= (Double.Epsilon * 100)))
                 {
-                    pnlVerticalVerde1.BackColor = Color.Green;
-                    pnlVerticalVerde2.BackColor = Color.Green;
+                    //pnlVerticalVerde1.BackColor = Color.Green;
+                    //pnlVerticalVerde2.BackColor = Color.Green;
                 }
                 else
                 {
-                    pnlVerticalVerde1.BackColor = Color.Gray;
-                    pnlVerticalVerde2.BackColor = Color.Gray;
+                    //pnlVerticalVerde1.BackColor = Color.Gray;
+                    //pnlVerticalVerde2.BackColor = Color.Gray;
                 }
                 segundos++;
                 txtContador.Text = segundos.ToString();
@@ -72,15 +72,15 @@ namespace Semaforo
 
         private void tmrAmarillo_Tick(object sender, EventArgs e)
         {
-            pnlVerticalAmarillo1.BackColor = Color.Yellow;
-            pnlVerticalAmarillo2.BackColor = Color.Yellow;
+            //pnlVerticalAmarillo1.BackColor = Color.Yellow;
+            //pnlVerticalAmarillo2.BackColor = Color.Yellow;
             if (segundos == 3)
             {
                 segundos = 0;
                 tmrAmarillo.Stop();
                 tmrRojo.Start();
-                pnlVerticalAmarillo1.BackColor = Color.Gray;
-                pnlVerticalAmarillo2.BackColor = Color.Gray;
+                //pnlVerticalAmarillo1.BackColor = Color.Gray;
+                //pnlVerticalAmarillo2.BackColor = Color.Gray;
             }
             else
             {
@@ -92,21 +92,20 @@ namespace Semaforo
 
         private void tmrRojo_Tick(object sender, EventArgs e)
         {
-            pnlVerticalRojo1.BackColor = Color.Red;
-            pnlVerticalRojo2.BackColor = Color.Red;
+            //pnlVerticalRojo1.BackColor = Color.Red;
+            //pnlVerticalRojo2.BackColor = Color.Red;
             if (segundos == 3)
             {
                 segundos = 0;
                 tmrRojo.Stop();
                 tmrVerde.Start();
-                pnlVerticalRojo1.BackColor = Color.Gray;
-                pnlVerticalRojo2.BackColor = Color.Gray;
+                //pnlVerticalRojo1.BackColor = Color.Gray;
+                //pnlVerticalRojo2.BackColor = Color.Gray;
             }
             else
             {
                 segundos++;
                 txtContador.Text = segundos.ToString();
-
             }
         }
     }
