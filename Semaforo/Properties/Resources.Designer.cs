@@ -73,6 +73,26 @@ namespace Semaforo.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap apagado_horizontal {
+            get {
+                object obj = ResourceManager.GetObject("apagado_horizontal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap apagado_vertical {
+            get {
+                object obj = ResourceManager.GetObject("apagado_vertical", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap casa_derecha {
             get {
                 object obj = ResourceManager.GetObject("casa_derecha", resourceCulture);
