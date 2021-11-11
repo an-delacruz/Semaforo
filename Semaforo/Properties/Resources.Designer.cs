@@ -123,6 +123,16 @@ namespace Semaforo.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dise_o_crucesemaforos {
+            get {
+                object obj = ResourceManager.GetObject("dise;o_crucesemaforos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pausa__1_ {
             get {
                 object obj = ResourceManager.GetObject("pausa (1)", resourceCulture);
