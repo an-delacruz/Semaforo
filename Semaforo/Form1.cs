@@ -108,5 +108,15 @@ namespace Semaforo
                 txtContador.Text = segundos.ToString();
             }
         }
+
+        private void panel13_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnStop_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

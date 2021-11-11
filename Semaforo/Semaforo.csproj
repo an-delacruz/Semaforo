@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +79,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pausa %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warning %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\casas_animadas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\casas_animadas %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apagado %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\casas__.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\casa_derecha.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crucero.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
