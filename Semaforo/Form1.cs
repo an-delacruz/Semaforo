@@ -14,15 +14,15 @@ namespace Semaforo
 {
     public partial class frmSemaforo : Form
     {
-        double segundos = 1;
-        bool sentido = true;
-        bool Preventivas = true;
-        PrivateFontCollection privateFont = new PrivateFontCollection();
-        bool verdeActivo;
-        bool verdeParpActivo = false;
-        bool amarilloActivo = false;
-        bool rojoActivo = false;
-        bool preventivasActivo = false;
+        double segundos = 1; //Conteo de segundos
+        bool sentido = true; //Bandera para indicar que sentido es el actual, true = vertical, false = horizontal 
+        bool Preventivas = true; //Bandera para indicar si es necesario prender/apagar las preventivas 
+        PrivateFontCollection privateFont = new PrivateFontCollection(); //Objeto para la creación de un font externo y se aplicado al label del contador.
+        bool verdeActivo; //Bandera para indicar si el color verde esta activo
+        bool verdeParpActivo = false; //Bandera para indicar si el verde parpadeando esta activo
+        bool amarilloActivo = false; //Bandera para indicar si el amarillo esta activo
+        bool rojoActivo = false; //Bandera para indicar si el rojo esta activo
+        bool preventivasActivo = false; //Bandera para indicar si las preventivas estan activas
 
         public frmSemaforo()
         {
@@ -273,7 +273,27 @@ namespace Semaforo
             tmrPreventivas.Start();
             preventivasActivo = true;
         }
-
+        void Detener()
+        {
+            sentido = true;
+            tmrVerde.Stop();
+            tmrRojo.Stop();
+            tmrAmarillo.Stop();
+            tmrVerdeParpadeando.Stop();
+            tmrPreventivas.Stop();
+            verdeActivo = false;
+            verdeParpActivo = false;
+            amarilloActivo = false;
+            rojoActivo = false;
+            preventivasActivo = false;
+            picVerticalArriba.Image = Properties.Resources.apagado_vertical;
+            picVerticalAbajo.Image = Properties.Resources.apagado_vertical;
+            picHorizontalDerecha.Image = Properties.Resources.apagado_horizontal;
+            picHorizontalIzquierda.Image = Properties.Resources.apagado_horizontal;
+            segundos = 1;
+            txtContador.Text = "0";
+            txtContador.ForeColor = Color.White;
+        }
         private void tmrPreventivas_Tick(object sender, EventArgs e)
         {
 
@@ -296,35 +316,8 @@ namespace Semaforo
                 txtContador.ForeColor = Color.White;
             }
         }
-        void Detener()
-        {
-            sentido = true;
-            tmrVerde.Stop();
-            tmrRojo.Stop();
-            tmrAmarillo.Stop();
-            tmrVerdeParpadeando.Stop();
-            tmrPreventivas.Stop();
-            verdeActivo = false;
-            verdeParpActivo = false;
-            amarilloActivo = false;
-            rojoActivo = false;
-            preventivasActivo = false;
-            picVerticalArriba.Image = Properties.Resources.apagado_vertical;
-            picVerticalAbajo.Image = Properties.Resources.apagado_vertical;
-            picHorizontalDerecha.Image = Properties.Resources.apagado_horizontal;
-            picHorizontalIzquierda.Image = Properties.Resources.apagado_horizontal;
-            segundos = 0;
-            txtContador.Text = "0";
-            txtContador.ForeColor = Color.White;
-        }
-        void Pausar()
-        {
-            tmrVerde.Stop();
-            tmrRojo.Stop();
-            tmrAmarillo.Stop();
-            tmrVerdeParpadeando.Stop();
-            tmrPreventivas.Stop();
-        }
+
+
 
         private void btnStop_Click(object sender, EventArgs e)
         {
@@ -334,6 +327,14 @@ namespace Semaforo
         private void btnPause_Click(object sender, EventArgs e)
         {
             Pausar();
+        }
+        void Pausar()
+        {
+            tmrVerde.Stop();
+            tmrRojo.Stop();
+            tmrAmarillo.Stop();
+            tmrVerdeParpadeando.Stop();
+            tmrPreventivas.Stop();
         }
         public bool esEntero(double valor)
         {
