@@ -72,7 +72,8 @@ namespace Semaforo
 
         private void frmSemaforo_Load(object sender, EventArgs e)
         {
-            privateFont.AddFontFile("C:\\Users\\anton\\source\\repos\\Semaforo\\Semaforo\\Resources\\Seven Segment.ttf");
+            privateFont.AddFontFile("C:\\Users\\Cabrera\\Desktop\\7 Semestre\\7 Semestre\\6-. Sistemas Programables\\Unidad3\\Semaforo\\Semaforo\\Resources\\Seven Segment.ttf");
+            //privateFont.AddFontFile("C:\\Users\\anton\\source\\repos\\Semaforo\\Semaforo\\Resources\\Seven Segment.ttf");
             //privateFont.AddFontFile(@"\\Resources\\Seven Segment.ttf");
             txtContador.Font = new Font(privateFont.Families[0], txtContador.Font.Size);
             txtContador.Text = "0";
