@@ -286,6 +286,7 @@ namespace Semaforo
             amarilloActivo = false;
             rojoActivo = false;
             preventivasActivo = false;
+            Preventivas = true;
             picVerticalArriba.Image = Properties.Resources.apagado_vertical;
             picVerticalAbajo.Image = Properties.Resources.apagado_vertical;
             picHorizontalDerecha.Image = Properties.Resources.apagado_horizontal;
