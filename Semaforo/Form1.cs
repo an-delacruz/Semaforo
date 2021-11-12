@@ -298,6 +298,7 @@ namespace Semaforo
         }
         void Detener()
         {
+            sentido = true;
             tmrVerde.Stop();
             tmrRojo.Stop();
             tmrAmarillo.Stop();

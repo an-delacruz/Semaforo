@@ -77,10 +77,10 @@ namespace Semaforo
             this.btnPause.BackColor = System.Drawing.Color.Transparent;
             this.btnPause.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPause.Image = global::Semaforo.Properties.Resources.pausa__1_;
-            this.btnPause.Location = new System.Drawing.Point(827, 138);
-            this.btnPause.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnPause.Location = new System.Drawing.Point(620, 112);
+            this.btnPause.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnPause.Name = "btnPause";
-            this.btnPause.Size = new System.Drawing.Size(59, 47);
+            this.btnPause.Size = new System.Drawing.Size(44, 38);
             this.btnPause.TabIndex = 29;
             this.btnPause.UseVisualStyleBackColor = false;
             this.btnPause.Click += new System.EventHandler(this.btnPause_Click);
@@ -90,10 +90,10 @@ namespace Semaforo
             this.btnPlay.BackColor = System.Drawing.Color.Transparent;
             this.btnPlay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPlay.Image = global::Semaforo.Properties.Resources.play__1_;
-            this.btnPlay.Location = new System.Drawing.Point(827, 68);
-            this.btnPlay.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnPlay.Location = new System.Drawing.Point(620, 55);
+            this.btnPlay.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnPlay.Name = "btnPlay";
-            this.btnPlay.Size = new System.Drawing.Size(59, 47);
+            this.btnPlay.Size = new System.Drawing.Size(44, 38);
             this.btnPlay.TabIndex = 28;
             this.btnPlay.UseVisualStyleBackColor = false;
             this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
@@ -103,10 +103,10 @@ namespace Semaforo
             this.btnPreventivas.BackColor = System.Drawing.Color.Transparent;
             this.btnPreventivas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPreventivas.Image = global::Semaforo.Properties.Resources.warning__1_;
-            this.btnPreventivas.Location = new System.Drawing.Point(922, 138);
-            this.btnPreventivas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnPreventivas.Location = new System.Drawing.Point(684, 112);
+            this.btnPreventivas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnPreventivas.Name = "btnPreventivas";
-            this.btnPreventivas.Size = new System.Drawing.Size(59, 47);
+            this.btnPreventivas.Size = new System.Drawing.Size(44, 38);
             this.btnPreventivas.TabIndex = 31;
             this.btnPreventivas.UseVisualStyleBackColor = false;
             this.btnPreventivas.Click += new System.EventHandler(this.btnPreventivas_Click);
@@ -114,10 +114,10 @@ namespace Semaforo
             // picHorizontalDerecha
             // 
             this.picHorizontalDerecha.Image = ((System.Drawing.Image)(resources.GetObject("picHorizontalDerecha.Image")));
-            this.picHorizontalDerecha.Location = new System.Drawing.Point(660, 538);
-            this.picHorizontalDerecha.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.picHorizontalDerecha.Location = new System.Drawing.Point(495, 437);
+            this.picHorizontalDerecha.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picHorizontalDerecha.Name = "picHorizontalDerecha";
-            this.picHorizontalDerecha.Size = new System.Drawing.Size(156, 66);
+            this.picHorizontalDerecha.Size = new System.Drawing.Size(117, 54);
             this.picHorizontalDerecha.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picHorizontalDerecha.TabIndex = 35;
             this.picHorizontalDerecha.TabStop = false;
@@ -127,10 +127,10 @@ namespace Semaforo
             this.btnStop.BackColor = System.Drawing.Color.Transparent;
             this.btnStop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnStop.Image = global::Semaforo.Properties.Resources.stop__1_;
-            this.btnStop.Location = new System.Drawing.Point(912, 68);
-            this.btnStop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnStop.Location = new System.Drawing.Point(684, 55);
+            this.btnStop.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnStop.Name = "btnStop";
-            this.btnStop.Size = new System.Drawing.Size(59, 47);
+            this.btnStop.Size = new System.Drawing.Size(44, 38);
             this.btnStop.TabIndex = 30;
             this.btnStop.UseVisualStyleBackColor = false;
             this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
@@ -138,10 +138,10 @@ namespace Semaforo
             // picHorizontalIzquierda
             // 
             this.picHorizontalIzquierda.Image = ((System.Drawing.Image)(resources.GetObject("picHorizontalIzquierda.Image")));
-            this.picHorizontalIzquierda.Location = new System.Drawing.Point(243, 272);
-            this.picHorizontalIzquierda.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.picHorizontalIzquierda.Location = new System.Drawing.Point(182, 221);
+            this.picHorizontalIzquierda.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picHorizontalIzquierda.Name = "picHorizontalIzquierda";
-            this.picHorizontalIzquierda.Size = new System.Drawing.Size(156, 66);
+            this.picHorizontalIzquierda.Size = new System.Drawing.Size(117, 54);
             this.picHorizontalIzquierda.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picHorizontalIzquierda.TabIndex = 34;
             this.picHorizontalIzquierda.TabStop = false;
@@ -149,10 +149,10 @@ namespace Semaforo
             // picVerticalAbajo
             // 
             this.picVerticalAbajo.Image = ((System.Drawing.Image)(resources.GetObject("picVerticalAbajo.Image")));
-            this.picVerticalAbajo.Location = new System.Drawing.Point(332, 538);
-            this.picVerticalAbajo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.picVerticalAbajo.Location = new System.Drawing.Point(249, 437);
+            this.picVerticalAbajo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picVerticalAbajo.Name = "picVerticalAbajo";
-            this.picVerticalAbajo.Size = new System.Drawing.Size(67, 156);
+            this.picVerticalAbajo.Size = new System.Drawing.Size(50, 127);
             this.picVerticalAbajo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picVerticalAbajo.TabIndex = 33;
             this.picVerticalAbajo.TabStop = false;
@@ -160,10 +160,10 @@ namespace Semaforo
             // picVerticalArriba
             // 
             this.picVerticalArriba.Image = ((System.Drawing.Image)(resources.GetObject("picVerticalArriba.Image")));
-            this.picVerticalArriba.Location = new System.Drawing.Point(660, 182);
-            this.picVerticalArriba.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.picVerticalArriba.Location = new System.Drawing.Point(495, 148);
+            this.picVerticalArriba.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.picVerticalArriba.Name = "picVerticalArriba";
-            this.picVerticalArriba.Size = new System.Drawing.Size(67, 156);
+            this.picVerticalArriba.Size = new System.Drawing.Size(50, 127);
             this.picVerticalArriba.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picVerticalArriba.TabIndex = 32;
             this.picVerticalArriba.TabStop = false;
@@ -174,10 +174,9 @@ namespace Semaforo
             this.txtContador.BackColor = System.Drawing.Color.Transparent;
             this.txtContador.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtContador.ForeColor = System.Drawing.Color.White;
-            this.txtContador.Location = new System.Drawing.Point(481, 390);
-            this.txtContador.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.txtContador.Location = new System.Drawing.Point(361, 317);
             this.txtContador.Name = "txtContador";
-            this.txtContador.Size = new System.Drawing.Size(83, 91);
+            this.txtContador.Size = new System.Drawing.Size(68, 73);
             this.txtContador.TabIndex = 27;
             this.txtContador.Text = "0";
             // 
@@ -189,21 +188,20 @@ namespace Semaforo
             // btnSalir
             // 
             this.btnSalir.BackgroundImage = global::Semaforo.Properties.Resources.salir__1_;
-            this.btnSalir.Location = new System.Drawing.Point(1014, 216);
-            this.btnSalir.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSalir.Location = new System.Drawing.Point(760, 176);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(34, 34);
+            this.btnSalir.Size = new System.Drawing.Size(26, 28);
             this.btnSalir.TabIndex = 36;
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // frmSemaforo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Semaforo.Properties.Resources.dise_o_crucesemaforos;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1061, 860);
+            this.ClientSize = new System.Drawing.Size(796, 699);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnPause);
             this.Controls.Add(this.btnPlay);
@@ -216,7 +214,6 @@ namespace Semaforo
             this.Controls.Add(this.txtContador);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmSemaforo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Semaforo";
