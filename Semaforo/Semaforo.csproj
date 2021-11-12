@@ -134,6 +134,7 @@
     <Content Include="Resources\1x\verde_arriba_vertical.png" />
     <Content Include="Resources\1x\verde_horizantal_izquierdo.png" />
     <Content Include="Resources\1x\verde_horizontal_derecho.png" />
+    <None Include="Resources\salir %281%29.png" />
     <None Include="Resources\Picture1.png" />
   </ItemGroup>
   <ItemGroup>
