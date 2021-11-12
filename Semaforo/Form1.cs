@@ -253,11 +253,15 @@ namespace Semaforo
                 {
                     picVerticalArriba.Image = Properties.Resources.verde_arriba_vertical;
                     picVerticalAbajo.Image = Properties.Resources.verde_abajo_vertical;
+                    picHorizontalDerecha.Image = Properties.Resources.rojo_horizontal_derecho;
+                    picHorizontalIzquierda.Image = Properties.Resources.rojo_horizontal_izquierdo;
                 }
                 else
                 {
                     picHorizontalDerecha.Image = Properties.Resources.verde_horizontal_derecho;
                     picHorizontalIzquierda.Image = Properties.Resources.verde_horizantal_izquierdo;
+                    picVerticalArriba.Image = Properties.Resources.Rojo_vertical_arriba;
+                    picVerticalAbajo.Image = Properties.Resources.rojo_vertical_abajo;
                 }
             }
             if (esEntero(segundos)) { txtContador.Text = segundos.ToString(); }
@@ -334,6 +338,11 @@ namespace Semaforo
         {
             if (valor == (int)valor) return true;
             else return false;
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

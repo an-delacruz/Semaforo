@@ -45,6 +45,7 @@ namespace Semaforo
             this.picVerticalArriba = new System.Windows.Forms.PictureBox();
             this.txtContador = new System.Windows.Forms.Label();
             this.tmrPreventivas = new System.Windows.Forms.Timer(this.components);
+            this.btnSalir = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picHorizontalDerecha)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picHorizontalIzquierda)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picVerticalAbajo)).BeginInit();
@@ -184,6 +185,16 @@ namespace Semaforo
             this.tmrPreventivas.Interval = 500;
             this.tmrPreventivas.Tick += new System.EventHandler(this.tmrPreventivas_Tick);
             // 
+            // btnSalir
+            // 
+            this.btnSalir.Location = new System.Drawing.Point(653, 172);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(75, 33);
+            this.btnSalir.TabIndex = 36;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
             // frmSemaforo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -191,6 +202,7 @@ namespace Semaforo
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(796, 699);
+            this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnPause);
             this.Controls.Add(this.btnPlay);
             this.Controls.Add(this.btnPreventivas);
@@ -230,6 +242,7 @@ namespace Semaforo
         private System.Windows.Forms.PictureBox picVerticalArriba;
         private System.Windows.Forms.Label txtContador;
         private System.Windows.Forms.Timer tmrPreventivas;
+        private System.Windows.Forms.Button btnSalir;
     }
 }
 
