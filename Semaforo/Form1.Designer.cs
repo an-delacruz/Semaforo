@@ -76,8 +76,8 @@ namespace Semaforo
             // 
             this.btnPause.BackColor = System.Drawing.Color.Transparent;
             this.btnPause.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPause.Image = ((System.Drawing.Image)(resources.GetObject("btnPause.Image")));
-            this.btnPause.Location = new System.Drawing.Point(824, 146);
+            this.btnPause.Image = global::Semaforo.Properties.Resources.pausa__1_;
+            this.btnPause.Location = new System.Drawing.Point(827, 138);
             this.btnPause.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnPause.Name = "btnPause";
             this.btnPause.Size = new System.Drawing.Size(59, 47);
@@ -89,8 +89,8 @@ namespace Semaforo
             // 
             this.btnPlay.BackColor = System.Drawing.Color.Transparent;
             this.btnPlay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPlay.Image = ((System.Drawing.Image)(resources.GetObject("btnPlay.Image")));
-            this.btnPlay.Location = new System.Drawing.Point(824, 53);
+            this.btnPlay.Image = global::Semaforo.Properties.Resources.play__1_;
+            this.btnPlay.Location = new System.Drawing.Point(827, 68);
             this.btnPlay.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnPlay.Name = "btnPlay";
             this.btnPlay.Size = new System.Drawing.Size(59, 47);
@@ -102,8 +102,8 @@ namespace Semaforo
             // 
             this.btnPreventivas.BackColor = System.Drawing.Color.Transparent;
             this.btnPreventivas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPreventivas.Image = ((System.Drawing.Image)(resources.GetObject("btnPreventivas.Image")));
-            this.btnPreventivas.Location = new System.Drawing.Point(945, 146);
+            this.btnPreventivas.Image = global::Semaforo.Properties.Resources.warning__1_;
+            this.btnPreventivas.Location = new System.Drawing.Point(922, 138);
             this.btnPreventivas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnPreventivas.Name = "btnPreventivas";
             this.btnPreventivas.Size = new System.Drawing.Size(59, 47);
@@ -126,8 +126,8 @@ namespace Semaforo
             // 
             this.btnStop.BackColor = System.Drawing.Color.Transparent;
             this.btnStop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnStop.Image = ((System.Drawing.Image)(resources.GetObject("btnStop.Image")));
-            this.btnStop.Location = new System.Drawing.Point(945, 53);
+            this.btnStop.Image = global::Semaforo.Properties.Resources.stop__1_;
+            this.btnStop.Location = new System.Drawing.Point(912, 68);
             this.btnStop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnStop.Name = "btnStop";
             this.btnStop.Size = new System.Drawing.Size(59, 47);
@@ -188,12 +188,12 @@ namespace Semaforo
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(871, 212);
-            this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSalir.BackgroundImage = global::Semaforo.Properties.Resources.salir__1_;
+            this.btnSalir.Location = new System.Drawing.Point(1014, 216);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(4);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(100, 41);
+            this.btnSalir.Size = new System.Drawing.Size(34, 34);
             this.btnSalir.TabIndex = 36;
-            this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
@@ -216,7 +216,7 @@ namespace Semaforo
             this.Controls.Add(this.txtContador);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmSemaforo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Semaforo";
