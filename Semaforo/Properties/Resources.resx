@@ -151,13 +151,43 @@
   <data name="casas_animadas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\casas_animadas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="apagado (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\apagado (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="pausa (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pausa (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="apagado_horizontal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1x\apagado_horizontal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="amarillo_horizontal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\1x\amarillo_horizontal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="amarillo_vertical" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\1x\amarillo_vertical.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rojo_horizontal_derecho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\1x\rojo_horizontal_derecho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rojo_horizontal_izquierdo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\1x\rojo_horizontal_izquierdo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rojo_vertical_abajo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\1x\rojo_vertical_abajo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rojo_vertical_arriba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\1x\rojo_vertical_arriba.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="verde_abajo_vertical" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\1x\verde_abajo_vertical.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="verde_arriba_vertical" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\1x\verde_arriba_vertical.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="verde_horizantal_izquierdo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\1x\verde_horizantal_izquierdo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="verde_horizontal_derecho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\1x\verde_horizontal_derecho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Seven_Segment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\seven segment.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

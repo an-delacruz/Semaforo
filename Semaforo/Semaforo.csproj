@@ -58,24 +58,26 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
+    <None Include="bin\Debug\Semaforo.exe.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\Seven Segment.ttf" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -102,9 +104,6 @@
     <None Include="Resources\casas_animadas %281%29.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\apagado %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\casas__.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -121,6 +120,23 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\1x\apagado_horizontal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Semaforo.exe" />
+    <Content Include="bin\Debug\Semaforo.pdb" />
+    <Content Include="Resources\1x\amarillo_horizontal.png" />
+    <Content Include="Resources\1x\amarillo_vertical.png" />
+    <Content Include="Resources\1x\rojo_horizontal_derecho.png" />
+    <Content Include="Resources\1x\rojo_horizontal_izquierdo.png" />
+    <Content Include="Resources\1x\rojo_vertical_abajo.png" />
+    <Content Include="Resources\1x\Rojo_vertical_arriba.png" />
+    <Content Include="Resources\1x\verde_abajo_vertical.png" />
+    <Content Include="Resources\1x\verde_arriba_vertical.png" />
+    <Content Include="Resources\1x\verde_horizantal_izquierdo.png" />
+    <Content Include="Resources\1x\verde_horizontal_derecho.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
