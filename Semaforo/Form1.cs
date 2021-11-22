@@ -60,7 +60,7 @@ namespace Semaforo
                     picHorizontalDerecha.Image = Properties.Resources.apagado_horizontal;
                     picHorizontalIzquierda.Image = Properties.Resources.apagado_horizontal;
                 }
-                txtContador.ForeColor = Color.Gray;
+                txtContador.ForeColor = Color.LightGray;
             }
             else
             {
@@ -76,7 +76,7 @@ namespace Semaforo
             //privateFont.AddFontFile(@"\\Resources\\Seven Segment.ttf");
             txtContador.Font = new Font(privateFont.Families[0], txtContador.Font.Size);
             txtContador.Text = "0";
-            txtContador.ForeColor = Color.Gray;
+            txtContador.ForeColor = Color.LightGray;
         }
 
         private void tmrVerdeParpadeando_Tick(object sender, EventArgs e)
@@ -100,13 +100,13 @@ namespace Semaforo
                     picHorizontalDerecha.Image = Properties.Resources.apagado_horizontal;
                     picHorizontalIzquierda.Image = Properties.Resources.apagado_horizontal;
                 }
-                txtContador.ForeColor = Color.Gray;
+                txtContador.ForeColor = Color.LightGray;
             }
             else
             {
                 if(!esEntero(segundos))
                 {
-                    txtContador.ForeColor = Color.Gray;
+                    txtContador.ForeColor = Color.LightGray;
                     if (sentido)
                     {
                         picVerticalArriba.Image = Properties.Resources.apagado_vertical;
@@ -170,7 +170,7 @@ namespace Semaforo
                     picHorizontalDerecha.Image = Properties.Resources.apagado_horizontal;
                     picHorizontalIzquierda.Image = Properties.Resources.apagado_horizontal;
                 }
-                txtContador.ForeColor = Color.Gray;
+                txtContador.ForeColor = Color.LightGray;
             }
             else
             {
@@ -200,7 +200,7 @@ namespace Semaforo
                 verdeActivo = true;
                 tmrVerde.Start();
                 sentido = !sentido;
-                txtContador.ForeColor = Color.Gray;
+                txtContador.ForeColor = Color.LightGray;
                 if (sentido)
                 {
                     picVerticalAbajo.Image = Properties.Resources.apagado_vertical;
@@ -294,7 +294,7 @@ namespace Semaforo
             picHorizontalIzquierda.Image = Properties.Resources.apagado_horizontal;
             segundos = 1;
             txtContador.Text = "0";
-            txtContador.ForeColor = Color.Gray;
+            txtContador.ForeColor = Color.LightGray;
         }
         private void tmrPreventivas_Tick(object sender, EventArgs e)
         {
@@ -315,7 +315,7 @@ namespace Semaforo
                 picHorizontalDerecha.Image = Properties.Resources.apagado_horizontal;
                 picHorizontalIzquierda.Image = Properties.Resources.apagado_horizontal;
                 Preventivas = true;
-                txtContador.ForeColor = Color.Gray;
+                txtContador.ForeColor = Color.LightGray;
             }
         }
 
